@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop.Hlavna">
+   <children>
+      <TextField layoutX="366.0" layoutY="142.0" />
+      <Text layoutX="223.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Počet dospelých" />
+      <Text layoutX="223.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Počet detí" wrappingWidth="86.490234375" />
+      <Text layoutX="223.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Počet dní" wrappingWidth="86.490234375" />
+      <Text layoutX="223.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zvoľte si typ dovolenky" wrappingWidth="131.29022216796875" />
+      <Text layoutX="223.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preferovaný typ dopravy" wrappingWidth="131.29022216796875" />
+      <TextField layoutX="366.0" layoutY="175.0" />
+      <ChoiceBox fx:id="vyberdni" layoutX="366.0" layoutY="208.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="typdovolenky" layoutX="366.0" layoutY="241.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="typdopravy" layoutX="366.0" layoutY="278.0" prefWidth="150.0" />
+      <Text layoutX="7.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="//toto sa bude rozsirovat, pouzivatel si bude moct navolit dovolenku podla roznych parametrov" wrappingWidth="518.490234375" />
+   </children>
+</AnchorPane>
